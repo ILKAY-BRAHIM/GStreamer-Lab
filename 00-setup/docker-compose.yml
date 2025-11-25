@@ -1,0 +1,17 @@
+services:
+  gstreamer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gst-lab
+    environment:
+      DISPLAY: "${DISPLAY:-:0}"
+      XDG_RUNTIME_DIR: "/tmp/gst-runtime"
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - /tmp/gst-runtime:/tmp/gst-runtime
+      - .:/gstreamer
+    working_dir: /gstreamer
+    command: >
+      bash -c "make clean && make all && make run"
+    restart: "no"

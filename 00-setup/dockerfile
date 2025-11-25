@@ -1,0 +1,11 @@
+FROM ubuntu:resolute-20251101
+
+ENV DEBIAN_FRONTEND=noninteractive
+ENV TZ=Africa/Casablanca
+
+COPY install.sh /install.sh
+
+RUN bash /install.sh
+RUN apt-get install -y build-essential
+
+CMD ["/bin/bash"]
