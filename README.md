@@ -1,7 +1,7 @@
 # GStreamer Lab
 ![Gstreamer](https://github.com/user-attachments/assets/f10128f2-375e-41f2-8fed-d2ffc4576ba3)
 
-This repo is my personal playground to **learn GStreamer deeply** – not just to use DeepStream, but to really understand:
+This repository is focused on **learning GStreamer in depth** with the goal of becoming a Computer Vision engineer who understands video pipelines end-to-end, not just high-level frameworks:
 
 - How **pipelines, elements, pads, caps, and buffers** work
 - How to build pipelines in **C and Python**
