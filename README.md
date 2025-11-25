@@ -1,4 +1,5 @@
 # GStreamer Lab
+<img width="1344" height="768" alt="Gstreamer" src="https://github.com/user-attachments/assets/09b90766-ee89-432f-b9ea-d13f6bfc61bd" />
 
 This repo is my personal playground to **learn GStreamer deeply** – not just to use DeepStream, but to really understand:
 
