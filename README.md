@@ -34,6 +34,6 @@ Learn the fundamentals **Folder:** [`setup/`](./foundation/setup/):
 - `basic-tutorial-1.c` – playbin example (plays video from URI)
 - `Makefile` – build configuration
 - `README.md` – complete tutorial with detailed explanations
----
+  
 Learn how Glib & Gobject matter and why use it **Folder:** [`Glib/`](./foundation/Glib/):
 ---
