@@ -17,9 +17,9 @@ This repository is focused on **learning GStreamer in depth** with the goal of b
 
 ### 0️⃣ Setup & Basic Tutorial
 
-**Folder:** [`00-setup/`](./00-setup/)
+**Folder:** [`foundation/`](./foundation/)
 
-Learn the fundamentals:
+Learn the fundamentals **Folder:** [`setup/`](./foundation/setup/):
 - Install GStreamer dev packages (native & Docker)
 - Verify `gst-launch-1.0` works
 - Build and run first C program (`basic-tutorial-1.c`)
@@ -34,4 +34,6 @@ Learn the fundamentals:
 - `basic-tutorial-1.c` – playbin example (plays video from URI)
 - `Makefile` – build configuration
 - `README.md` – complete tutorial with detailed explanations
+---
+Learn how Glib & Gobject matter and why use it **Folder:** [`Glib/`](./foundation/Glib/):
 ---
